@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <meta
+      name="description"
+      content=" Primi
+    passi
+    operativi
+    per
+    creare
+    un
+    modello
+    di
+    pagina
+    HTML
+    per
+    un
+    post.
+    Scopri
+    come
+    iniziare
+    in
+    modo
+    facile."
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="logo.svg" alt="logo epicode" /> Epicode- il blog dei
+        developers
+      </h1>
+      <menu></menu>
+    </header>
+    <main>
+      <h2>Come creare un template per i post</h2>
+      <p>Di Mario Rossi - pubblicato il 25-10-2020</p>
+      <p>
+        La prima cosa da fare è suddividere in blocchi la pagina, identificando
+        le parti comuni da applicare a tutte le pagine
+      </p>
+      <p>Le varie aeree saranno quindi suddivise in:</p>
+      <ul>
+        <li>Contenuti di intestazione del tag < header ></li>
+        <li>
+          Contenuti centrali variabili del tag < main > { corpo principale }
+        </li>
+        <li>Contenuti di fine pagina comuni, da inserire nal tag < footer ></li>
+      </ul>
+      <h3>Formattazione del codice</h3>
+      <p>
+        Il testo dell'articolo dovrà essere formattato per identificare tutte le
+        parti da selezionare con CSS. Perciò i passi sarannno:
+      </p>
+      <ol>
+        <li>
+          Progettare il markup assegnando ad ogni specifco testo il tag
+          appropriato
+        </li>
+        <li>
+          Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il
+          basso
+        </li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <p>
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
+        diffusione pressochè totale.
+      </p>
+      <!--inizio tabella-->
+      <table>
+        <thead>
+          Diffusione dei CSS
+        </thead>
+        <tbody>
+          <tr>
+            <td>Anno</td>
+            <td>utilizzo</td>
+            <td>supporto browsers</td>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </tbody>
+      </table>
+      <!--fine tabella-->
+      <p>
+        Un test di validazione potrà essere fatto tramite il tool online
+        <a href="https://www.leagueoflegends.com/it-it/"
+          ><button>Clicca qui</button></a
+        >
+        dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il
+        nostro obiettivo ed essere stati dei veri developers come loro:
+      </p>
+      <p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/f_w9UA8MRP8?si=O9Z9A-beRnwlUMjU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </p>
+      <!--inizio newsletter-->
+      <p>
+        Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nosta
+        newsletter:
+      </p>
+      <form onsubmit="alert('Inviato')">
+        <form action="newsletter">
+          <input type="email" placeholder="email" />
+          <button type="submit">Iscriviti!</button>
+        </form>
+      </form>
+      <!--fine newsletter-->
+      <!--area correlati-->
+      <aside style="margin: 2em">
+        <p>Artcoli correlati</p>
+        <p>Validare codice HTML</p>
+        <p>Categoria: develop</p>
+        <p>Data: 18-09-2020</p>
+      </aside>
+      <aside style="margin: 2em">
+        <p>Correggere la sintassi</p>
+        <p>Categoria: develop</p>
+        <p>Data: 16-09-2020</p>
+      </aside>
+      <aside style="margin: 2em">
+        <p>meno kb nella pagina</p>
+        <p>Categoria:ottimizzazione</p>
+      </aside>
+      <!--fine area correlati-->
+    </main>
+    <footer>
+      Blog Epicode ©2023
+      <p>
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
+        Luigi E£inaudi 2 -Milano.P.IVA 00112233.
+        <a href="https://learn.epicode.com/course/153/curriculum/57359"
+          >info@epicode.school</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
